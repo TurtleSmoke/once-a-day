@@ -1,0 +1,48 @@
+baseURL = "https://TurtleSmoke.github.io/Once-a-day"
+languageCode = "en-us"
+Title = "Once a day"
+defaultContentLanguage = "en"
+theme = "dream"
+
+[params]
+zenMode = true
+lightTheme = "emerald"
+darkTheme = "forest"
+author = "TurtleSmoke"
+description = "Once a day"
+avatar = "/me/pp.jpg"
+headerTitle = "TurtleSmoke"
+motto = "Committing to learn something once a day"
+siteStartYear = 2024
+favicon = "/favicon.ico"
+customSyntaxHighlighting = true
+stickyNav = true
+showSummaryCoverInPost = true
+reorderNavItems = ["search", "github", "posts", "categories", "tags"]
+collapseNavItems = ["posts", "categories", "tags"]
+# Add "." because nothing generate the default one, and I don't want to show any share button
+reorderShares = ["."]
+
+[params.navItems]
+github = { href = "https://github.com/TurtleSmoke", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+[params.advanced]
+customCSS = ["css/custom.css"]
+
+[params.experimental]
+jsDate = true
+jsDateFormat = "yyyy/MM/dd"
+
+# Markup
+[markup]
+[markup.goldmark.parser.attribute]
+block = true
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+noClasses = false
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+enableGitInfo = true
