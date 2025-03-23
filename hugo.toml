@@ -1,4 +1,4 @@
-baseURL = "https://turtlesmoke.dev/once-a-day"
+baseURL = "https://turtlesmoke.dev/once-a-day/"
 languageCode = "en-us"
 Title = "Once a day"
 defaultContentLanguage = "en"
@@ -10,11 +10,11 @@ lightTheme = "emerald"
 darkTheme = "forest"
 author = "TurtleSmoke"
 description = "Once a day"
-avatar = "/me/pp.jpg"
+avatar = "/once-a-day/img/pp.jpg"
 headerTitle = "TurtleSmoke"
 motto = "Committing to learn something once a day"
 siteStartYear = 2024
-favicon = "/favicon.ico"
+favicon = "/once-a-day/img/favicon.ico"
 customSyntaxHighlighting = true
 stickyNav = true
 showSummaryCoverInPost = true
@@ -26,11 +26,11 @@ reorderShares = ["."]
 [params.navItems]
 github = { href = "https://github.com/TurtleSmoke", target = "_blank", icon = "logo-github", title = "GitHub" }
 
-#[params.advanced]
-#customJS = ["js/three.min.js"]
+[params.advanced]
+customJS = ["js/three.min.js"]
 
-#[security]
-#enableInlineShortcodes = true
+[security]
+enableInlineShortcodes = true
 
 [params.experimental]
 jsDate = true
