@@ -15,4 +15,4 @@ Here's text that should appear after the three.js demo.
 
 # Eiffel Tower Geospatial View
 
-<div id="map-container" style="width: 100%; height: 400px;"></div>
+{{< geo-demo >}}

@@ -27,7 +27,7 @@ reorderShares = ["."]
 github = { href = "https://github.com/TurtleSmoke", target = "_blank", icon = "logo-github", title = "GitHub" }
 
 [params.advanced]
-customJS = ["js/three.min.js"]
+customJS = ["js/three.min.js", "js/geo-view.js", "js/OrbitControls.min.js"]
 
 [security]
 enableInlineShortcodes = true
